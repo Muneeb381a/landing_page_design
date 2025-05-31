@@ -2,12 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .table-1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 40px 20px;
+    background-color: #f5f5f5;
 }
 
 table {
@@ -16,14 +19,31 @@ table {
     width: 100%;
     max-width: 600px;
     text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #ffffff;
 }
 
 .table-1 th,
 .table-1 td {
-    border: 2px solid green;
-    padding: 10px 10px;
+    border-bottom: 2px solid #ccc;
+    padding: 14px 18px;
+    
 }
 
 .table-1 thead {
     background: rgb(204, 174, 119);
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.table-1 tbody tr:hover {
+    background-color: #f0f8f0;
+    transition: background-color 0.3s ease;
+}
+
+.table-1 th:first-child,
+.table-1 td:first-child {
+    text-align: left;
 }
