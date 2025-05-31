@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.table-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid green;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.table-1 th,
+.table-1 td {
+    border: 2px solid green;
+    padding: 10px 10px;
+}
+
+.table-1 thead {
+    background: rgb(204, 174, 119);
+}
