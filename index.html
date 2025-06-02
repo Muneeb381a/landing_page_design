@@ -3,53 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tables in HTML and css</title>
+    <title>Todos</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="table-1">
-        <table>
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Father Name</th>
-                    <th>Age</th>
-                    <th>Email</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Muneeb</td>
-                    <td>Muhamamd Afzal</td>
-                    <td>25</td>
-                    <td>muneeb@email.com</td>
-                </tr>
-                <tr>
-                    <td>Muneeb</td>
-                    <td>Muhamamd Afzal</td>
-                    <td>25</td>
-                    <td>muneeb@email.com</td>
-                </tr>
-                <tr>
-                    <td>Muneeb</td>
-                    <td>Muhamamd Afzal</td>
-                    <td>25</td>
-                    <td>muneeb@email.com</td>
-                </tr>
-                <tr>
-                    <td>Muneeb</td>
-                    <td>Muhamamd Afzal</td>
-                    <td>25</td>
-                    <td>muneeb@email.com</td>
-                </tr>
-                <tr>
-                    <td>Muneeb</td>
-                    <td>Muhamamd Afzal</td>
-                    <td>25</td>
-                    <td>muneeb@email.com</td>
-                </tr>
-            </tbody>
-        </table>
+    <div class="container">
+        <h1>My Todos 📝</h1>
+        <div class="input-group">
+            <input type="text" id="todo-input" placeholder="Add new task">
+            <button onclick="addTodo()">Add</button>
+        </div>
+        <ul id="todo-list"></ul>
     </div>
+
+
+
+    <script src="index.js"></script>
 </body>
 </html>
